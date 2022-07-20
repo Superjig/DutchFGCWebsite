@@ -1,0 +1,2 @@
+This is just a temporary test to test the auto-pull script on the server, which performs a git pull every minute.
+This file will be removed after the test.
