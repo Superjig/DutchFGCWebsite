@@ -23,14 +23,15 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	/* line-height: 1; */
 }
 
 ol, ul {
@@ -52,7 +53,7 @@ table {
 }
 
 body {
-	-webkit-text-size-adjust: none;
+	/* -webkit-text-size-adjust: none; */
 }
 
 mark {
@@ -126,7 +127,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				/* font-size: 14pt; */
 			}
 
 		}
@@ -134,7 +135,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				/* font-size: 12pt; */
 			}
 
 		}
@@ -311,13 +312,7 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-/* Header */
-	.stripes {
-		height: 100%;
-        width: 100%;
-        background-color:#123456;
-	
-	}
+
 
 /* Row */
 
@@ -2834,9 +2829,16 @@ input, select, textarea {
 		}
 
 /* Header */
-
+    #vermiljoen {
+		padding: 1em 0 0.1em 0;
+		background-color:#AE1C28 ;
+	}
+	#kobaltblauw {
+		padding: 1em 0 0.1em 0;
+		background-color:#21468B ;
+	}
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 1em 0 0.1em 0;
 	}
 
 		#header .logo {
@@ -2955,7 +2957,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 4em 0 0.1em 0 ;
+				padding: 1em 0 0.1em 0;
 			}
 
 				#header nav {
@@ -3196,8 +3198,8 @@ input, select, textarea {
 			}
 
 			#footer > .inner section:nth-child(1) {
-				width: calc(66% - 2.5em);
-				margin-right: 2.5em;
+				width: calc(66% - 1em);
+				margin-right: 3.5em;
 			}
 
 			#footer > .inner section:nth-child(2) {
@@ -3235,7 +3237,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 5em 0 3em 0;
 			}
 
 				#footer > .inner section:nth-child(1) {
@@ -3267,7 +3269,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 0 1em 0 ;
+				padding: 3em 0 1em 0;
 			}
 
 				#footer > .inner {
@@ -3280,7 +3282,6 @@ input, select, textarea {
 					#footer > .inner section:nth-child(1) {
 						width: 100%;
 						margin-right: 0;
-						margin: 3em 0 0 0;
 					}
 
 					#footer > .inner section:nth-child(2) {
@@ -3322,15 +3323,15 @@ input, select, textarea {
 
 	#wrapper > * > .inner {
 		width: 100%;
-		max-width: 68em;
+		max-width: 56em;
 		margin: 0 auto;
-		padding: 0 2.5em;
+		padding: 0 1em;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			#wrapper > * > .inner {
-				padding: 0 1.25em;
+				padding: 0 2em;
 			}
 
 		}
